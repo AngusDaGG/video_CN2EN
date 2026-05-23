@@ -1,0 +1,4 @@
+interface:
+  display_name: "Remotion Clip Cache"
+  short_description: "Cache Remotion image clips for FFmpeg assembly"
+  default_prompt: "Use the Remotion clip cache workflow to pre-render missing image clips and assemble videos without rerunning Remotion."

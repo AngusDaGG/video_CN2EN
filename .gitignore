@@ -1,0 +1,58 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Logs and run reports
+logs/
+*.log
+
+# Workflow input, output, and generated media
+audio/
+input_audio/
+input_audio_finish/
+input_audio_lining/
+input_videos/
+output_videos/
+remotion_clips/
+subtitles/
+temp/
+transcripts/
+translations/
+voiceovers/
+
+# Large local models and binary tools
+models/
+tools/
+
+# Local media assets that should not be versioned by default
+music/
+universe picture/
+封面/
+
+# Remotion / Node dependencies and generated assets
+remotion/node_modules/
+remotion/public/generated/
+remotion/.cache/
+remotion/out/
+remotion/dist/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

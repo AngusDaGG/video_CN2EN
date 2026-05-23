@@ -1,0 +1,15 @@
+{
+  "name": "video-cn2en-remotion-visuals",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render:test": "remotion render src/index.jsx ImageTimeline ../temp/remotion_visual_intermediate.mp4 --props ../temp/remotion_props.json --codec h264 --overwrite"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.443",
+    "remotion": "^4.0.443",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {}
+}
